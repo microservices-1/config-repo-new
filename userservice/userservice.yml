@@ -9,9 +9,9 @@ spring:
   database:
     driverClassName: "com.mysql.jdbc.Driver"
   datasource:
-    url: "jdbc:mysql://eu-cdbr-west-01.cleardb.com/heroku_644c616056bbf04?reconnect=true"
-    username: "b7632a6ed50859"
-    password: "b68628a3"
+    url: "jdbc:mysql://bda3bf637497b7:ee5ffb70@eu-cdbr-west-02.cleardb.net/heroku_eed8450e812a01e?reconnect=true"
+    username: "bda3bf637497b7"
+    password: "ee5ffb70"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
     
