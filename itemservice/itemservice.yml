@@ -11,7 +11,7 @@ spring:
   datasource:
     url: "jdbc:mysql://eu-cdbr-west-02.cleardb.net/heroku_eed8450e812a01e?reconnect=true"
     username: "bda3bf637497b7"
-    password: "{cipher} 1cd48599ac1fa87436640ed8ffa33680fcc279137957bbe11ef5e0855b9e2733"
+    password: "{cipher}1cd48599ac1fa87436640ed8ffa33680fcc279137957bbe11ef5e0855b9e2733"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
     
