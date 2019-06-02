@@ -15,12 +15,21 @@ spring:
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
     
-security:
-  basic:
-    enabled: false
+#security:
+#  basic:
+#    enabled: false
     
 server:
   port: 8081
+
+
+security:
+ oauth2:
+  resource:
+    userInfoUri: http://localhost:8901/user
+
+signing:
+  key: 345345fsdgsf5345
 
 eureka:
   instance:
